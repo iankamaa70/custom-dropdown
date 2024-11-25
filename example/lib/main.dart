@@ -78,6 +78,13 @@ class _HomeState extends State<Home> {
             ListView(
               padding: const EdgeInsets.all(16.0),
               children: [
+                ...List.generate(
+                  50,
+                  (index) => SizedBox(
+                    height: 20,
+                    child: Text('$index'),
+                  ),
+                ),
                 const SimpleDropdown(),
                 const SizedBox(height: 16),
                 const SearchDropdown(),

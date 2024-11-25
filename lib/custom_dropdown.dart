@@ -658,7 +658,7 @@ class _CustomDropdownState<T> extends State<CustomDropdown<T>> {
                 overlayHeight: widget.overlayHeight,
                 excludeSelected: widget.excludeSelected,
                 // Set canCloseOutsideBounds to true to allow background interaction but close dropdown on tap outside
-                canCloseOutsideBounds: true,
+                canCloseOutsideBounds: widget.canCloseOutsideBounds,
                 searchType: widget._searchType,
                 futureRequest: widget.futureRequest,
                 futureRequestDelay: widget.futureRequestDelay,

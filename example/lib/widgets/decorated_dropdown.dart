@@ -13,6 +13,7 @@ class DecoratedDropdown extends StatelessWidget {
     return CustomDropdown<Job>.search(
       items: jobItems,
       initialItem: jobItems[2],
+      canCloseOutsideBounds: false,
       hintText: 'Select job role',
       searchHintText: 'Search job role',
       excludeSelected: false,
