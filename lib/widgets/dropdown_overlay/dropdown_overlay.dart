@@ -551,7 +551,7 @@ class _DropdownOverlayState<T> extends State<_DropdownOverlay<T>> {
             child: Container(
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
-              color: Colors.transparent,
+              color: Colors.teal,
             ),
           ),
           child,
